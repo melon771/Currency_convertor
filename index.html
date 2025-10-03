@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitta Exchange - Currency converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: black;">
+
+    
+<!-- intro page part -->
+
+<div class="firstpage">
+    <header>
+        <div class="header">
+            <nav id="container"> 
+                <button class="homebutton"><b>Home</b></button>
+                <button class="currencyconverter"> <b>Currency converter</b></button>
+                <button class="currencyarbitrage"><b>Currency Arbitrage</b></button>
+            </nav>
+
+            <div class="logo">
+                <p>Vitta Exchange</p>
+            </div>
+        </div>    
+    </header>
+
+    <main id="container100">
+            <div>
+                <h1 class="mainheading">Vitta Exchange</h1>
+            </div>
+
+            <div>
+                <p class="slogan">It's your one stop solution to all your currency conversions</p>
+            </div>
+
+            <div>
+                <p class="description">
+                   Effortlessly convert currencies at live exchange rates with Vitta Exchange. <br>Our intuitive platform ensures  accuracy and transparency. Simplify your <br>financial decisions with seamless conversions. Trusted by users worldwide,<br> Vitta Exchange is your gateway to smarter, faster, and more reliable <br>currency conversions.
+                </p>
+            </div>            
+    </main>
+</div>
+
+<!-- form part -->
+
+<div id="theconverter">
+    <p id="headline">Do ur conversions here</p>
+    <div class="wrapper">
+        <header>Currency Converter</header>
+        <form action="#">
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input type="text" value="1">
+            </div>
+            <div class="drop-list">
+                <div class="from">
+                    <p>From</p>
+                    <div class="select-box">
+                        <img src="https://flagsapi.com/US/flat/64.png" alt="flag">
+                        <select></select>
+                    </div>
+                </div>
+                <div class="icon"><i class='fas'>&#xf362;</i></div>
+                <div class="to">
+                    <p>To</p>
+                    <div class="select-box">
+                        <img src="https://flagsapi.com/IN/flat/64.png" alt="flag">
+                        <select></select>
+                    </div>
+                </div>
+            </div>
+            <div class="exchange-rate">Getting exchnage rate...</div>
+            <button>Get Exchange Rate </button>
+        </form>
+    </div>
+</div>
+
+<!-- end part -->
+
+<p class="footer"> &#169; All copyright reserved 2024</p>
+
+    <script src="js/country-list.js"></script>
+    <script src="js/script2.js"></script>
+    
+    
+</body>
+</html>
